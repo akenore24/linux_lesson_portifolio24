@@ -1,0 +1,23 @@
+# 08/21/24
+# Disk usage commands and notes
+
+du:     Display disk usage for the current directory and its subdirectories
+
+du -a:  Display disk usage for all files, not just directories
+du -b
+du -B <SIZE>: Scale sizes by the specified block size (e.g., du -B KB to display
+        sizes in kilobytes)
+
+du -c:  Display a grand total of the disk usage after listing all entries
+du -h:  Display disk usage in a human-readable format (e.g., KB, MB, GB)
+du -k
+du -m
+du -ha
+du -s:  Display the total disk usage of the specified directory without listing
+           subdirectories
+du -ah | sort -rh:      Check disk usage, including hidden files, and sort by size:
+
+du --time:      Display the last modification time of files along with their sizes.
+
+  source 
+  https://ss64.com/bash/du.html
