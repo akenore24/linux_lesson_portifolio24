@@ -1,0 +1,61 @@
+08/21/24
+AK
+The following are the commands I foud useful(for me/to me?)
+(9) What you need to know about ls
+
+ls: list files and directories
+
+1.      ls -l:          List files and directories with detailed information
+2.      ls -a:          List All files, including hidden files (those starting with ‘.’)
+3.      ls -la:         List all files with detailed information including hidden files:
+4.      ls -c:          Lists files in column (default)
+5.      ls -g:          List directory contents in long format while omitting the user (owner) information.
+
+6.      ls -lg:         Displays the long format with the group name and omits the owner.
+7.      ls -grt:        Combines the reverse time sort (-rt) with the group-only view.
+8.      ls -lh:         List files with human-readable sizes (e.g., KB, MB)
+9.      ls -R:          List files recursively
+10.     ls -lR:         List files in the current directory and its subdirectories, with a detailed view
+
+11.     ls -aR:         List all files recursively, including hidden files
+12.     ls -i:          List files with their inode numbers
+13.     ls -s:          List directory contents with an additional column showing the size of each file in blocks.
+
+14.     ls -lt:         List directory contents in long format, sorted by modification time, with the most recently
+                                modified files appearing at the top
+
+15.     ls -ltr:        Lists files in long format, sorted by modification time, but in reverse order, so the oldest
+                        files are listed first.
+
+16.     ls -t:          List directory contents sorted by modification time
+17.     ls -lth:        List files with detailed information, sorted by modification time, and include
+                                human-readable sizes
+
+18.     ls -lx:         List files sorted by extension
+19.     ls -lt:         List files sorted by modification time (newest first)
+20.     ls -ltr:        List files sorted by modification time (oldest first)
+21.     ls -lS:         List files sorted by size (largest first)
+22.     ls -lrS:        l for list, r for reverse order, s for sort
+
+23.     ls -alh:        List all files, including hidden ones, with detailed information and
+                                human-readable sizes
+
+24.     ls -1:          list files in a single column
+25.     man ls:         Opens the manual (man) page for the ls command
+
+
+================ Some fun: Try any of them and see the differenc||Did it work??==================
+ls -ltra
+ls -ltrab
+ls -ltras
+ls -ltraS
+ls -ltraSg
+ls -ltRaS
+ls -lathRgSb ?
+ls -abghlRSt ?
+
+
+Source :
+  https://ss64.com/bash/ls.html
+  chatGPT
+  
